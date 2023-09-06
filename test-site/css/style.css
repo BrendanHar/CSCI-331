@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    /* background-color: lightblue; */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    /* color: white; */
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
