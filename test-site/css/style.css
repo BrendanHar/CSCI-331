@@ -5,6 +5,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    color: darkslategrey;
+    font-size: 3rem;
+}
+
+#net-id {
+    background-color: yellow;
+}
+
+.highlighted{
+    background-color: #6ab099;
+    color: #e0f6ef;
+}
+
 h1, h2, h3 {
     /* color: white; */
     text-align: center;
@@ -16,6 +30,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-collapse: collapse;
 }
 
 td, th {
@@ -41,4 +56,43 @@ li {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+.column1{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.column2{
+    margin-right: 6%;
+}
+.column1, .column2{
+    min-width: 480px;
+    width: 41%;
+    float: left;
+    outline: solid 2px grey;
+    border-radius: 0.5rem;
+    /* columns: 80vh 2; */
+}
+.main{
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+input {
+    width: 40%;
+    height: 2rem;
+    margin: 1.5rem;
+    box-sizing: border-box;
+}
+
+img{
+    min-width: 100px;
+    max-width: 800px;
+    margin: 1.5rem;
+    border-radius: 10rem;
+    padding: 2rem;
+    outline: grey 6px solid;
+    width: 80%;
+}
+img:hover{
+    opacity: 50%;
 }

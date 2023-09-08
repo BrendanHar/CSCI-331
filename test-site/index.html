@@ -16,18 +16,34 @@
     <body>
 
         <h1>Brendan Harrington</h1>
-        <h2>q74q931</h2>
-        <h3><a href="https://github.com/BrendanHar" target="_blank">GitHub</a></h3>
+        <h2 id="net-id">q74q931</h2>
+        <h3><a href="https://brendanhar.github.io/test-site/" target="_blank">GitHub Pages</a></h3>
         
         <br>
-        <h2>Class Schedule</h2>
-        <table>
+        <div class="main">
+        <div class="column1">
+          <h2>Questionnaire: Sleep Data</h2>
+          <form action="https://www.cs.montana.edu/users/h48c334/form-viewer.php" method="GET">
+            <input type="range" id="slider" min="1" max="100" value="50" name="energy-level">
+            <small>Your Energy level</small>
+            <input type="time" id="time-entry" name="bed_time">
+            <small>Your Bed Time</small>
+            <input type="submit" value="Submit Data">
+            <img src="images/among-us-character-nawpic-16.png" alt="Amog us">
+            <img src="images/jbcj0uqbihg41.jpg" alt="Hacker time">
+          </form>
+        </div>
+        
+        
+        <div class="column2">
+          <h2>Class Schedule</h2>
+          <table>
             <tr>
               <th>Time (PM)</th>
               <th>Monday</th>
-              <th>Tuesday</th>
+              <th class="highlighted">Tuesday</th>
               <th>Wednsday</th>
-              <th>Thursday</th>
+              <th class="highlighted">Thursday</th>
               <th>Friday</th>
             </tr>
             <tr>
@@ -84,6 +100,7 @@
             <li>CSCI 495</li>
             <li>ESOF 422</li>
           </ul>
-
+        </div>
+      </div>
       </body>
 </html>
