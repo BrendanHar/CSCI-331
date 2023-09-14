@@ -1,0 +1,32 @@
+
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+nav > a{
+    text-decoration: none;
+    
+}
+
+#logo, #pages{
+    padding-right: 20%;
+}
+
+#pages, #socials{
+    display: flex;
+    /* padding-inline: 1rem; */
+}
+
+#pages > a, #logo > a, #socials > a{
+    text-decoration: none;
+    color: black;
+}
+
+#pages > a, #socials > a{
+    padding-inline: 1rem;
+}
