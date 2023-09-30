@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Team Application</h1>
+    <form action="form-viewer.php" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" name="contactname" id="name">
+        <label for="teamName">Team Name</label>
+        <input type="text" id="teamname">
+        <label for="tournamentType">Tournament type</label>
+        <select name="tournamenttype" id="tournamentType">
+            <option value="coed-2s">Coed 2s</option>
+            <option value="male-female-2s">Male/Female 2s</option>
+            <option value="coed-4s">Coed 4s</option>
+            <option value="male-female-4s">Male/Female 4s</option>
+            <option value="reverse-4s">Reverse Coed 4s</option>
+            <option value="coed-6s">Coed 6s</option>
+            <option value="male-female-6s">Male/Female 6s</option>     
+        </select>
+        <label for="division">Select your division</label>
+        <input type="radio" name="division" id="division">
+        <input type="submit" name="submitbtn" >
+    </form>
+</body>
+</html>
